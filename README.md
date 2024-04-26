@@ -23,4 +23,10 @@ O Painel eSUS é desenvolvido em Python utilizando o framework Flask para criar 
 
 5. Abra o navegador e acesse o Painel eSUS em `http://localhost:5000/api/v1/atendimentos`
 
+6. Para acessar os atendimentos em uma data específica (substitua 'YYYY-mm-dd' pela data desejada): http://localhost:5000/api/v1/atendimentos?data_atendimento=YYYY-mm-dd
+
+7.Para acessar os atendimentos com uma condição de saúde específica (substitua 'condicao' pela condição desejada): http://localhost:5000/api/v1/atendimentos?condicao_saude=condicao
+
+8.Para acessar os atendimentos em uma unidade de saúde específica (substitua 'unidade' pelo nome da unidade desejada): http://localhost:5000/api/v1/atendimentos?unidade=unidade
+
 
