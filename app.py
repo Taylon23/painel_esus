@@ -12,7 +12,7 @@ def carregar_dados_csv(nome_arquivo):
 
 dados_atendimentos = carregar_dados_csv('atendimentos.csv')
 
-# Definir rota para o endpoint /api/v1/atendimentos
+# Definerota para o endpoint /api/v1/atendimentos
 @app.route('/api/v1/atendimentos', methods=['GET'])
 def buscar_atendimentos():
     # Obtem parâmetros de consulta da URL
