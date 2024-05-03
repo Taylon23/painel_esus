@@ -18,10 +18,10 @@ O Painel eSUS é desenvolvido em Python utilizando o framework Flask para criar 
   
 3. Instale as dependências do Python (certifique-se de ter o Python e o pip instalados): pip install -r requirements.txt
 
-4.  Execute o aplicativo Flask: Flask run
+4.  Execute o aplicativo Flask: flask run --port=8001
 
 
-5. Abra o navegador e acesse o Painel eSUS em `http://localhost:5000/api/v1/atendimentos`
+5. Abra o navegador e acesse o Painel eSUS em `http://localhost:8001/api/v1/atendimentos`
 
 6. Para acessar os atendimentos em uma data específica (substitua 'YYYY-mm-dd' pela data desejada): http://localhost:5000/api/v1/atendimentos?data_atendimento=YYYY-mm-dd
 
